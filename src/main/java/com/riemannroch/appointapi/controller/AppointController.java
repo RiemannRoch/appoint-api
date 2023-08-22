@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/appoint")
+@CrossOrigin(origins = "*")
 public class AppointController {
 
     @Autowired
